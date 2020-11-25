@@ -9,6 +9,7 @@ import androidx.compose.material.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.platform.setContent
+import androidx.compose.ui.viewinterop.viewModel
 import androidx.navigation.compose.*
 import dog.shebang.viewmodelcompose.ui.screen.Screen
 import dog.shebang.viewmodelcompose.ui.screen.home.Home
@@ -31,6 +32,7 @@ fun MainApp() {
 @Composable
 fun AppContents() {
     val navController = rememberNavController()
+    val viewModel: MainViewModel = viewModel()
 
     Scaffold(bottomBar = {
         BottomNavigation {
@@ -55,6 +57,8 @@ fun AppContents() {
             composable(Screen.Home.name) { Home(navController) }
             composable(Screen.List.name) { dog.shebang.viewmodelcompose.ui.screen.list.List(navController) }
         }
+
+        viewModel.value
     }
 
 }
