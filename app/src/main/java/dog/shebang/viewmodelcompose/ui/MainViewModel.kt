@@ -1,4 +1,4 @@
-package dog.shebang.viewmodelcompose
+package dog.shebang.viewmodelcompose.ui
 
 import android.content.ContentValues.TAG
 import android.util.Log

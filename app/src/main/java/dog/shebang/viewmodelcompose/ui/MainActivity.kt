@@ -1,4 +1,4 @@
-package dog.shebang.viewmodelcompose
+package dog.shebang.viewmodelcompose.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
