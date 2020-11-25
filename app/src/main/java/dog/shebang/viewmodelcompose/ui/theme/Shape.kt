@@ -1,4 +1,4 @@
-package dog.shebang.viewmodelcompose.ui
+package dog.shebang.viewmodelcompose.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

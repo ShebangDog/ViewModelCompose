@@ -1,4 +1,4 @@
-package dog.shebang.viewmodelcompose.ui
+package dog.shebang.viewmodelcompose.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

@@ -2,12 +2,12 @@ package dog.shebang.viewmodelcompose.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.foundation.Text
+import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.setContent
 import androidx.compose.ui.viewinterop.viewModel
 import androidx.ui.tooling.preview.Preview
-import dog.shebang.viewmodelcompose.ui.ViewModelComposeTheme
+import dog.shebang.viewmodelcompose.ui.theme.ViewModelComposeTheme
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

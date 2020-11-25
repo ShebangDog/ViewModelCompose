@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ViewModelCompose">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.ViewModelCompose.NoActionBar">
             <intent-filter>
