@@ -1,0 +1,2 @@
+rootProject.name = "ViewModelCompose"
+include ':app'
